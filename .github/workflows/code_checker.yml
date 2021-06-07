@@ -7,7 +7,7 @@ on:
 jobs:
   validate:
     env:
-      SRC_FOLDER: TEMPLATE_CHANGE_ME
+      SRC_FOLDER: airthings_cloud
     runs-on: "ubuntu-latest"
     strategy:
       matrix:
