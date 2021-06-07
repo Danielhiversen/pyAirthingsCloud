@@ -5,9 +5,9 @@ on:
   pull_request:
 
 jobs:
-  env:
-    SRC_FOLDER: TEMPLATE_CHANGE_ME
   validate:
+    env:
+      SRC_FOLDER: TEMPLATE_CHANGE_ME
     runs-on: "ubuntu-latest"
     strategy:
       matrix:
